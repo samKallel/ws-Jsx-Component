@@ -12,22 +12,25 @@ import Projet from './Component/Bagage/Projet';
 function App() {
   return (
     <div className="App">
-    <Entete/>     
+    <Entete/> 
+    {/* le grand cadre pointille     */}
     <div className="cadre">
     <h1>Portfolio</h1>
-    <div className='ph-nom'>
+    <div className='ph-nom'> {/*partie haute du cadre*/}
        <ProfilePhoto/>
        <FullName/>
     </div>
     <br/><hr/>
-    <Titre/>
+    <Titre/> {/*deuxieme partie du cadre*/}
     <Adresse/>
     </div>
-    <div className='bagages'>
+
+    <div className='bagages'>{/*partie liens de la page*/}
     <Cv/>
     <LettreMotiv/>
     <Projet/>
     </div>
+
     </div>
   );
 }
