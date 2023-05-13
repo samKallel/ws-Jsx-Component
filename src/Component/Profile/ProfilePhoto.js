@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import photo from '../../Image/PhProfile.jpg';
+import photo from '../../Image/ProfilePhoto.jpg';
 import '../../App.css';
 
 const ProfilePhoto = () => {
